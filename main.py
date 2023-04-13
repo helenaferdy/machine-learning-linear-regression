@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # torch.manual_seed(42)
 class LinearRegressionModel(nn.Module):
     def __init__(self):
-        super().__init__
+        super().__init__()
         self.linear = nn.Linear(1,1)
 
     def forward(self, x):
