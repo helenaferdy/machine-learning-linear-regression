@@ -1,17 +1,17 @@
-# machine-learning-linear-regression
-
-
-### Linear Regression with PyTorch
+# Linear Regression with PyTorch
 
 This code demonstrates how to implement a simple linear regression model using PyTorch. The model is trained on synthetic data with a known ground truth, and the training progress is visualized with plots of the training data, test data, model predictions, and loss.
 
-### Code Overview
+## Code Overview
 
-> Model Definition: The linear regression model is defined as a subclass of nn.Module in PyTorch. It consists of a single linear layer with one input and one output neuron.
+### Model Definition:
+>  The linear regression model is defined as a subclass of nn.Module in PyTorch. It consists of a single linear layer with one input and one output neuron.
 
-> Data Generation: Synthetic data is generated with a known ground truth. The input features X are created using the torch.arange function, and the corresponding labels y are calculated using a known weight and bias.
+### Data Generation:
+>  Synthetic data is generated with a known ground truth. The input features X are created using the torch.arange function, and the corresponding labels y are calculated using a known weight and bias.
 
-> Data Splitting: The generated data is split into training and test sets using a 70/30 split.
+### Data Splitting:
+>  The generated data is split into training and test sets using a 70/30 split.
 
 > Plotting Functions: Functions for plotting the training data, test data, model predictions, and loss are defined using matplotlib.
 
