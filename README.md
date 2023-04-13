@@ -29,4 +29,14 @@ This code demonstrates how to implement a simple linear regression model using P
 
 # Training with 1000 epochs
 
+##### 0 epoch
 ![0 epoch](static/train_0.png)
+
+##### 0 epoch
+![0 epoch](static/train_200.png)
+
+##### 0 epoch
+![0 epoch](static/train_1000.png)
+
+##### loss curve
+![0 epoch](static/loss.png)
