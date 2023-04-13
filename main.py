@@ -22,11 +22,8 @@ y_train, y_test = y[:train_split], y[train_split:]
 
 def plot_train(train_data=X_train, train_label=y_train, test_data=X_test, test_label=y_test, train_model=None, test_model=None):
     plt.figure(figsize=(10,7))
-    #training data in blue
     plt.scatter(train_data, train_label, c="b", s=4, label="Training Data")
-    #test data in green
     plt.scatter(test_data, test_label, c="g", s=4, label="Test Data")
-    #prediction data in red
     if train_model is not None:
         plt.scatter(train_data, train_model, c="r", s=4, label="Model Training")
     if test_model is not None:
