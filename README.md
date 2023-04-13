@@ -2,6 +2,22 @@
 
 This code demonstrates how to implement a simple linear regression model using PyTorch. The model is trained on synthetic data with a known ground truth, and the training progress is visualized with plots of the training data, test data, model predictions, and loss.
 
+# Training with 1000 epochs
+
+##### 0 epoch
+![0 epoch](static/train_0.png)
+
+##### 200 epoch
+![0 epoch](static/train_200.png)
+
+##### 1000 epoch
+![0 epoch](static/train_1000.png)
+
+##### loss curve
+![0 epoch](static/loss.png)
+
+
+
 ## Code Overview
 
 ####
@@ -25,18 +41,3 @@ This code demonstrates how to implement a simple linear regression model using P
 
 #### Model Evaluation:
 >  The trained model is evaluated on the test data, and the predictions are visualized using the plotting functions.
-
-
-# Training with 1000 epochs
-
-##### 0 epoch
-![0 epoch](static/train_0.png)
-
-##### 200 epoch
-![0 epoch](static/train_200.png)
-
-##### 1000 epoch
-![0 epoch](static/train_1000.png)
-
-##### loss curve
-![0 epoch](static/loss.png)
