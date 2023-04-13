@@ -4,7 +4,8 @@ This code demonstrates how to implement a simple linear regression model using P
 
 ## Code Overview
 
-#### Model Definition:
+####
+ Model Definition:
 >  The linear regression model is defined as a subclass of nn.Module in PyTorch. It consists of a single linear layer with one input and one output neuron.
 
 #### Data Generation:
@@ -24,3 +25,8 @@ This code demonstrates how to implement a simple linear regression model using P
 
 #### Model Evaluation:
 >  The trained model is evaluated on the test data, and the predictions are visualized using the plotting functions.
+
+
+# Training with 1000 epochs
+
+![0 epoch](static/train_0.png)
